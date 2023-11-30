@@ -6,10 +6,13 @@
 }
 
 body {
-  max-width: 100%;
-  background: black;
   color: white;
-  overflow-x: hidden;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
 }
 
 .wrapper {
@@ -74,4 +77,52 @@ body {
 
 .btnL:hover {
   background-color: darkblue; 
+}
+
+
+.device-list-container {
+  border: 5px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.device-list-title {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+/* style.css */
+/* style.css */
+.device-list {
+  padding-left: 0;
+  margin: 0;
+  align-content: center;
+  list-style-type: none;
+}
+.device-item {
+  margin-bottom: 20px; 
+}
+.device-name {
+  margin-right: 80px; 
+}
+.connected {
+  color: green;
+}
+.not-connected {
+  color: red;
+}
+
+
+
+
+.device-list li {
+  margin-bottom: 8px;
+}
+
+.HomeTitel{
+  font-size: 30px;
+  align-content: center;
+  padding-bottom: 15px;
 }
